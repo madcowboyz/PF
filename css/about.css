@@ -1,0 +1,35 @@
+#about{
+
+  background: #D42323;
+  height: 700px;
+}
+.a-wrap{
+
+    text-align: center;
+    background: white;
+}
+.a-wrap p{
+    background-image:url(../img/logo.png);
+
+    width: 500px;
+    height: 500px;
+    font-size: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.a-wrap h2{
+
+    font-size: 36px;
+}
+.contact{
+
+    display: flex;
+    justify-content: center;
+}
+.contact li{
+
+}
+.contact li a{
+    padding: 0 15px;
+}
