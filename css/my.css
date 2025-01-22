@@ -1,13 +1,12 @@
 #my{
 
   background: #D42323;
-  height: 1000px;
 }
 .m-wrap{
 
   width: 1000px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 188px 0;
 }
 .m-wrap h2{
 
@@ -18,10 +17,44 @@
   align-items: center;
   justify-content: center;
   font-size: 36px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .log-box{
     
   background: white;
+  border-radius: 20px;
+}
+.form-box{
+    
+  padding: 50px 100px;
+}
+::placeholder{
+  font-size: 30px;
+}
+.log-box h3{
+
+  font-size: 30px;
+  padding: 30px 0;
+}
+
+.log-box form{
+
+  height: 500px;
+}
+.log-box form label{
+
+  vertical-align: middle;
+}
+.log-box form input{
+
+  width: 700px;
+  height: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid;
+  font-size: 30px;
 }
 .log-box .log{
 

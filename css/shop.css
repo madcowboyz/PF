@@ -1,0 +1,39 @@
+#shop{
+
+  background: #D42323;
+}
+.s-inner{
+    width: 1800px;
+    margin: 0 auto;
+}
+.container{
+
+  padding: 188px 0;
+}
+.goods{
+
+  width: 500px;
+  background: white;
+  border-radius: 15px;
+}
+
+.list{
+
+  display: flex;
+  justify-content: space-between;
+  /*! background: white; */
+}
+.list li{
+
+}
+.list li h2{
+
+  margin: 15px 0;
+}
+.list li p{
+
+}
+
+
+
+

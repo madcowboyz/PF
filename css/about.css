@@ -1,12 +1,14 @@
 #about{
 
   background: #D42323;
-  height: 700px;
+  height: 800px;
+  padding-top: 188px;
 }
 .a-wrap{
 
     text-align: center;
     background: white;
+    border-radius: 15px;
 }
 .a-wrap p{
     background-image:url(../img/logo.png);
@@ -25,11 +27,35 @@
 .contact{
 
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .contact li{
-
+    background-image: url(../img/insta.png);
+    width: 70px;
+    height: 70px;
+    background-size: contain;
 }
+
+.contact li:nth-of-type(2){
+    background-image: url(../img/kakao.png);
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+}
+.contact li:nth-of-type(3){
+    background-image: url(../img/mail.png);
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+}
+.contact li:nth-of-type(4){
+    background-image: url(../img/yotube.png);
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+}
+
 .contact li a{
     padding: 0 15px;
+    font-size: 0;
 }
